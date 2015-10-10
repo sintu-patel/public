@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<lesson name="CSS3 Introduction" imgpath="images/css3.png">
+		<page name="CSS3 Introduction">
+			<textcontent><![CDATA[<h1>CSS3 Introduction</h1><p>CSS is used to control the style and layout of Web pages.<br />CSS3 is the latest standard for CSS.<br />This tutorial teaches you about the new features in CSS3!</p><p>CSS3 is completely backwards compatible, so you will not have to change existing designs. Browsers will always support CSS2.</p>]]></textcontent>
+		</page>	
+		<page name="CSS3 Modules">
+			<textcontent><![CDATA[<h1>CSS3 Modules</h1><p>CSS3 is split up into "modules". The old specification has been split into smaller pieces, and new ones are also added.<br /><br />Some of the most important CSS3 modules are:</p><ul><li>Selectors</li> <li>Box Model</li> <li>Backgrounds and Borders</li> <li>Text Effects</li> <li>2D/3D Transformations</li> <li>Animations</li> <li>Multiple Column Layout</li> <li>User Interface</li> </ul>]]></textcontent>
+		</page>	
+		<page name="CSS3 Recommendation">
+			<textcontent><![CDATA[<h1>CSS3 Recommendation</h1><p>The CSS3 specification is still under development by W3C.<br /><br />However, many of the new CSS3 properties have been implemented in modern browsers.</p>]]></textcontent>
+		</page>		
+	</lesson>
+	<lesson name="CSS3 Borders" imgpath="images/css3_borders.jpg">
+		<page name="CSS3 Borders">
+			<textcontent><![CDATA[<h1>CSS3 Borders</h1><p>With CSS3, you can create rounded borders, add shadow to boxes, and use an image as a border - without using a design program, like Photoshop. In this chapter you will learn about the following border properties:</p><ul><li>border-radius</li><li>box-shadow</li><li>border-image</li></ul>]]></textcontent>
+		</page>	
+		<page name="Browser Support">
+			<textcontent><![CDATA[<h1>Browser Support</h1><table><tr><th>Property</th><th colspan="5">Browser Support</th></tr><tr><td>border-radius</td><td>IE</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr><tr><td>box-shadow</td><td>IE</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr><tr><td>box-image</td><td>&nbsp;</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr></table><p>Internet Explorer 9+ supports border-radius and box-shadow. Firefox, Chrome, and Safari supports all of the new border properties. Note: Safari 5, and older versions, requires the prefix -webkit- for border-image. Opera supports border-radius and box-shadow, but requires the prefix -o- for border-image.</p>]]></textcontent>
+		</page>	
+		<page name="CSS3 Rounded Corners">
+			<textcontent><![CDATA[<h1>CSS3 Rounded Corners</h1><p>Adding rounded corners in CSS2 was tricky. We had to use different images for each corner. In CSS3, creating rounded corners is easy. In CSS3, the border-radius property is used to create rounded corners</p><table><tr><th>Example - Add rounded corners to a div element:</th></tr><tr><td><p><pre>div{<br >border:2px solid;<br >border-radius:25px;<br >} </pre></p></td></tr></table>]]></textcontent>
+		</page>	
+		<page name="CSS3 Box Shadow">
+			<textcontent><![CDATA[<h1>CSS3 Box Shadow</h1><p>In CSS3, the box-shadow property is used to add shadow to boxes</p><table><tr><th>Example - Add a box-shadow to a div element</th></tr><tr><td><p>div<br />{<br />box-shadow: 10px 10px 5px #888888;<br />}</p></td></tr></table>]]></textcontent>
+		</page>	
+		<page name="CSS3 Border Image">
+			<textcontent><![CDATA[<h1>CSS3 Border Image</h1><p>With the CSS3 border-image property you can use an image to create a border <br />The border-image property allows you to specify an image as a border!</p><table><tr><th>Example - Use an image to create a border around a div element</th></tr><tr><td><p>div<br />{<br />border-image:url(border.png) 30 30 round;<br />-webkit-border-image:url(border.png) 30 30 round;<br /> /* Safari 5 and older */<br />-o-border-image:url(border.png) 30 30 round; <br />/* Opera */<br />} </p></td></tr></table>]]></textcontent>
+		</page>	
+	</lesson>
+	<lesson name="CSS3 Backgrounds" imgpath="images/background.gif">
+		<page name="CSS3 Backgrounds">
+			<textcontent><![CDATA[<h1>CSS3 Backgrounds</h1><p>CSS3 contains several new background properties, which allow greater control of the background element.<br />In this chapter you will learn about the following background properties:<br />background-size<br />background-origin<br />You will also learn how to use multiple background images.</p>]]></textcontent>
+		</page>	
+		<page name="Browser Support">
+			<textcontent><![CDATA[<h1>Browser Support</h1><table><tr><th>Property</th><th colspan="5">Browser Support</th></tr><tr><td>background-size</td><td>IE</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr><tr><td>box-shadow</td><td>IE</td><td>background-origin</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr></table><p><p>Internet Explorer 9+, Firefox, Chrome, Safari, and Opera support the new background properties</p>]]></textcontent>
+		</page>	
+		<page name="CSS3 The background-size Property">
+			<textcontent><![CDATA[<h1>CSS3 The background-size Property</h1><p>The background-size property specifies the size of the background image.<br />Before CSS3, the background image size was determined by the actual size of the image. In CSS3 it is possible to specify the size of the background image, which allows us to re-use background images in different contexts.</p><table><tr><th>Example - Position the background image within the content-box</th></tr><tr><td><p>div<br />{<br />background:url(img_flwr.gif);<br />background-size:80px 60px;<br />background-repeat:no-repeat;<br />}</p></td></tr></table>]]></textcontent>
+		</page>	
+		<page name="CSS3 The background-origin Property">
+			<textcontent><![CDATA[<h1>CSS3 The background-origin Property</h1><p>The background-origin property specifies the positioning area of the background images.<br /></p><table><tr><th>Example - Resize a background image</th></tr><tr><td><p>div<br />{<br />background:url(img_flwr.gif);<br />background-repeat:no-repeat;<br />background-size:100% 100%;<br />background-origin:content-box;<br />} </p></td></tr></table>]]></textcontent>
+		</page>	
+		<page name="CSS3 Multiple Background Images">
+			<textcontent><![CDATA[<h1>CSS3 Multiple Background Images</h1><p>CSS3 allows you to use several background images for an element.</p><table><tr><th>Example - Set two background images for the body element</th></tr><tr><td><p>body<br />background-image:url(img_flwr.gif),url(img_tree.gif);<br />} </p></td></tr></table>]]></textcontent>
+		</page>	
+	</lesson>
+	
+	<lesson name="CSS3 Text Effects" imgpath="images/text_shadow.gif">
+		<page name="CSS3 Text Effects">
+			<textcontent><![CDATA[<h1>CSS3 Text Effects</h1><p>CSS3 contains several new text features.<br />In this chapter you will learn about the following text properties<br />text-shadow<br />word-wrap<br /></p>]]></textcontent>
+		</page>	
+		<page name="Browser Support">
+			<textcontent><![CDATA[<h1>Browser Support</h1><table><tr><th>Property</th><th colspan="5">Browser Support</th></tr><tr><td>text-shadow</td><td>IE</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr><tr><td>box-shadow</td><td>IE</td><td>word-wrap</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr></table><p><p>Internet Explorer 10, Firefox, Chrome, Safari, and Opera support the text-shadow property.<br />All major browsers support the word-wrap property.<br /><strong>Note:</strong> Internet Explorer 9 and earlier versions, does not support the text-shadow property.</p>]]></textcontent>
+		</page>	
+		<page name="CSS3 Text Shadow">
+			<textcontent><![CDATA[<h1>CSS3 Text Shadow</h1><p>In CSS3, the text-shadow property applies shadow to text. <br />You specify the horizontal shadow, the vertical shadow, the blur distance, and the color of the shadow.</p><table><tr><th>Example - Add a shadow to a header</th></tr><tr><td><p>h1{<br />text-shadow: 5px 5px 5px #FF0000;<br />} <br /></p></td></tr></table>]]></textcontent>
+		</page>	
+		<page name="CSS3 Word Wrapping">
+			<textcontent><![CDATA[<h1>CSS3 Word Wrapping</h1><p>If a word is too long to fit within an area, it expands outside.<br />In CSS3, the word-wrap property allows you to force the text to wrap - even if it means splitting it in the middle of a word</p><table><tr><th>Example - Allow long words to be able to break and wrap onto the next line</th></tr><tr><td><p>p<br /> {<br />word-wrap:break-word;<br />} </p></td></tr></table>]]></textcontent>
+		</page>	
+		
+	</lesson>
+	
+	<lesson name="CSS3 Fonts" imgpath="images/css3.png">
+		<page name="The CSS3 @font-face Rule">
+			<textcontent><![CDATA[<h1>The CSS3 &copy;font-face Rule</h1><p>Before CSS3, web designers had to use fonts that were already installed on the user's computer.<br />With CSS3, web designers can use whatever font he/she likes.<br />When you have found/bought the font you wish to use, include the font file on your web server, and it will be automatically downloaded to the user when needed.<br />Your "own" fonts are defined in the CSS3 @font-face rule.</p>]]></textcontent>
+		</page>	
+		<page name="Browser Support">
+			<textcontent><![CDATA[<h1>Browser Support</h1><table><tr><th>Property</th><th colspan="5">Browser Support</th></tr><tr><td>&copy;font-face</td><td>IE</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr></table><p><p>Internet Explorer 9+, Firefox, Chrome, Safari, and Opera support the WOFF (Web Open Font Format) font.<br />Firefox, Chrome, Safari, and Opera support fonts of type TTF (True Type Fonts) and OTF (OpenType Fonts).<br />Chrome, Safari and Opera also support SVG fonts/shapes.<br />Internet Explorer also supports EOT (Embedded OpenType) fonts.<br /><strong>Note:</strong> Internet Explorer 8 and earlier versions, do not support the @font-face rule.</p>]]></textcontent>
+		</page>	
+		<page name="Using Bold Text">
+			<textcontent><![CDATA[<h1>Using Bold Text</h1><p>You must add another @font-face rule containing descriptors for bold text.</p><table><tr><th>Example</th></tr><tr><td><p>@font-face<br />{<br />font-family: myFirstFont;<br />src:url(sansation_bold.woff);<br />font-weight:bold;<br />}</p></td></tr></table><p>The file "Sansation_Bold.ttf" is another font file, that contains the bold characters for the Sansation font.<br />Browsers will use this whenever a piece of text with the font-family "myFirstFont" should render as bold.<br />This way you can have many @font-face rules for the same font.</p>]]></textcontent>
+		</page>	
+		
+		<page name="CSS3 Font Descriptors">
+			<textcontent><![CDATA[<h1>CSS3 Font Descriptors</h1><p>The following table lists all the font descriptors that can be defined inside the &copy;font-face rule.</p><table><tr><th>Descriptor</th><th>Values</th><th> 	Description</th></tr><tr><td><p>font-family</p></td><td><p>name</p></td><td><p>Required. Defines a name for the font</p></td></tr>
+			<tr><td><p>src</p></td><td><p>URL</p></td><td><p>Required. Defines the URL of the font file</p></td></tr>
+			<tr><td><p>font-stretch</p></td><td><p>normal<br />condensed<br />ultra-condensed<br />extra-condensed<br />semi-condensed
+<br />expanded<br />semi-expanded<br />extra-expanded<br />ultra-expanded</p></td><td><p>Optional. Defines how the font should be stretched. Default is "normal"</p></td></tr>
+			<tr><td><p>font-style</p></td><td><p>normal<br />italic<br />oblique</p></td><td><p>Optional. Defines how the font should be styled. Default is "normal"</p></td></tr>
+			<tr><td><p>font-weight</p></td><td><p>normal<br />bold<br />100<br />200<br />300<br />400<br />500<br />600<br />700<br />800<br />900</p></td><td><p>Optional. Defines the boldness of the font. Default is "normal"</p></td></tr>
+			<tr><td><p>unicode-range</p></td><td><p>unicode-range</p></td><td><p>Optional. Defines the range of UNICODE characters the font supports. Default is "U+0-10FFFF"</p></td></tr>
+			</table>]]></textcontent>
+		</page>
+		
+		
+	</lesson>
+	
+	<lesson name="CSS3 2D Transforms" imgpath="images/css3.png">
+<page name="CSS3 2D Transforms">
+			<textcontent><![CDATA[<h1>CSS3 2D Transforms</h1><p>With CSS3 transform, we can move, scale, turn, spin, and stretch elements.</p><h1>How Does it Work?</h1><p>A transform is an effect that lets an element change shape, size and position.<br />You can transform your elements using 2D or 3D transformation.</p>]]></textcontent>
+		</page>	
+		
+		<page name="Browser Support">
+			<textcontent><![CDATA[<h1>Browser Support</h1><table><tr><th>Property</th><th colspan="5">Browser Support</th></tr><tr><td>transform</td><td>IE</td><td>Mozilla</td><td>Chrome</td><td>Safari</td><td>Opera</td></tr></table><p>Internet Explorer 10, Firefox, and Opera support the transform property.<br />Chrome and Safari requires the prefix -webkit-.<br />Note: Internet Explorer 9 requires the prefix -ms-.</p>]]></textcontent>
+		</page>	
+</lesson>
+			
+	
+</data>

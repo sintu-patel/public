@@ -3,6 +3,7 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	var jsFiles = grunt.file.readJSON('jsconfig/js-files.json');
+	var bowerComponents = 'bower_components/';
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		less: {
@@ -23,7 +24,7 @@ module.exports = function(grunt){
 					paths: 'dev/javascript'
 				},
 				files: {
-					'dev/assets/js/javascript.js': jsFiles
+					'dev/assets/js/javascript.js': [bowerComponents + 'jquery/dist/jquery.js', jsFiles]
 				}
 			}
 		},

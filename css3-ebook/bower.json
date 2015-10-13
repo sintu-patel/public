@@ -1,0 +1,8 @@
+{
+  "name": "Bower Project",
+  "description": "This is an example for bower setup",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

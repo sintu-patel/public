@@ -1,0 +1,13 @@
+{
+  "name": "WWW",
+  "version": "1.0.0",
+  "description": "This is testing project",
+  "author": "Sintu",
+  "license": "",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
